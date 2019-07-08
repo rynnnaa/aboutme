@@ -11,16 +11,28 @@
 </head>
 <body>
   <script>
-    alert("Hello, Welcome!");
+    alert("Welcome! Lets get to know you!");
     var userName = prompt("What is your name?");
     alert("Nice to meet you, " + userName);
+    console.log("username", userName);
     var occupation = prompt("What is it that you do for a living?");
-    alert("Must be nice to be a " + occupation + ".");
+    alert("Ok, " + userName + "." + " Must be nice to be a " + occupation + ".");
+    console.log("occupation", occupation);
     var funStuff = prompt("What do you do for fun?");
-    alert(funStuff + " sounds like so much fun!");  
+    alert("Ok, " + userName + " who is a " + occupation + " ." + funStuff + " sounds like so much fun!");
+    console.log("fun stuff", funStuff); 
     var food = prompt("What do you like to eat?");
-    alert("Ew, " + food + " is gross");
+    alert("Ew, " + food + " is gross. Very nice to meet you " + userName + " who is a " + occupation + " that likes to " + funStuff);
+    console.log("food", food);
     </script>
+    <main>
+      <h1>Questions</h1>
+    <p style ="color:blue; background-color:red;">"What is your name?"</p>
+    <p style ="color: red; background-color:blue;">"What is your occupation?</p>
+    <p style ="color: blue; background-color:red;">"What do you like to do for fun?</p>
+    <p style = "color: red; background-color: blue;">What do you like to eat?"</p>
+
+    </main>
   
 </body>
 </html>
